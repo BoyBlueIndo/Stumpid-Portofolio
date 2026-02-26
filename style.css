@@ -1,0 +1,76 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(assets/important/beach.png);
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nowrap {
+    white-space: break-spaces;
+}
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-big {
+    font-size: x-large;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.intro {
+    backdrop-filter: blur(20px);
+    border: 20px solid #24a6d1;
+    border-radius: 20px;
+
+    padding: 25px;
+}
+
+.profile {
+    backdrop-filter: blur(20px);
+    border: rgb(181, 238, 255) solid 10px;
+    border-radius: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-right: 75%;
+}
+
+.img_profile {
+    width: 100px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: azure;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 290px;
+}
