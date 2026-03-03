@@ -2,6 +2,8 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    /* border: #15ff00 1px solid; */
 }
 
 p, h2 {
@@ -96,6 +98,23 @@ body {
     margin: auto;
 }
 
+.button {
+    background-color: #46a800;
+    border: #000000 solid 5px;
+
+    display: flex;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px;
+}
+
+.button:link {
+    text-decoration: none;
+}
+
 #three {
     background: #545454;
     background: linear-gradient(0deg,rgba(84, 84, 84, 1) 0%, rgba(3, 3, 3, 1) 50%, rgba(87, 87, 87, 1) 100%);
@@ -147,8 +166,8 @@ body {
 }
 
 #TDS {
-    background: #969696;
-    background: linear-gradient(0deg,rgba(150, 150, 150, 1) 60%, rgba(207, 0, 0, 1) 100%);
+    background: #46a800;
+    background: linear-gradient(0deg,rgba(70, 168, 0, 1) 20%, rgba(57, 189, 204, 1) 55%);
 }
 
 #TPT2 {
