@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+p, h2 {
+    color: white;
+}
+
 body {
     background-image: url(assets/important/beach.png);
     background-color: black;
@@ -22,6 +26,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-white {
+    color: white;
 }
 
 .font-big {
@@ -71,6 +79,84 @@ body {
     background-color: azure;
     border: 10px solid black;
     padding: 10px;
-    margin: 10px;
-    width: 290px;
+    margin: 20px;
+    width: 280px;
+    height: 550px;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: auto;
+}
+
+#three {
+    background: #545454;
+    background: linear-gradient(0deg,rgba(84, 84, 84, 1) 0%, rgba(3, 3, 3, 1) 50%, rgba(87, 87, 87, 1) 100%);
+}
+
+#CI {
+    background: #ff6a00;
+    background: linear-gradient(0deg,rgba(255, 106, 0, 1) 0%, rgba(102, 102, 102, 1) 15%, rgba(0, 48, 150, 1) 100%);
+}
+
+#CS {
+    background: #4c0063;
+    background: linear-gradient(0deg,rgba(76, 0, 99, 1) 10%, rgba(17, 0, 92, 1) 50%, rgba(50, 0, 150, 1) 90%);
+}
+
+#DvN {
+    background: #878787;
+    background: linear-gradient(7deg,rgba(135, 135, 135, 1) 10%, rgba(0, 0, 0, 1) 50%, rgba(150, 138, 0, 1) 90%);
+}
+
+#DW {
+    background: #878787;
+    background: linear-gradient(354deg,rgba(135, 135, 135, 1) 8%, rgba(0, 0, 0, 1) 61%);
+}
+
+#EP {
+    background: #003078;
+    background: linear-gradient(90deg,rgba(0, 48, 120, 1) 0%, rgba(158, 0, 0, 1) 100%);
+}
+
+#Hours {
+    background: #000000;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(38, 69, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+#P {
+    background: #000000;
+    background: linear-gradient(356deg,rgba(0, 0, 0, 1) 34%, rgba(255, 255, 255, 1) 65%, rgba(0, 0, 0, 1) 90%);
+}
+
+#PR {
+    background: #4a1e96;
+    background: linear-gradient(195deg,rgba(74, 30, 150, 1) 15%, rgba(0, 212, 255, 1) 37%, rgba(74, 30, 150, 1) 65%);
+}
+
+#TBZ {
+    background: #423200;
+    background: linear-gradient(0deg,rgba(66, 50, 0, 1) 0%, rgba(143, 88, 0, 1) 50%, rgba(168, 109, 0, 1) 100%);
+}
+
+#TDS {
+    background: #969696;
+    background: linear-gradient(0deg,rgba(150, 150, 150, 1) 60%, rgba(207, 0, 0, 1) 100%);
+}
+
+#TPT2 {
+    background: #969696;
+    background: linear-gradient(0deg,rgba(150, 150, 150, 1) 32%, rgba(0, 121, 207, 1) 100%);
+}
+
+#TSB {
+    background: #0a2054;
+background: linear-gradient(0deg,rgba(10, 32, 84, 1) 28%, rgba(114, 0, 207, 1) 78%);
 }
